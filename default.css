@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    background-color: rgba(4, 36, 59, 1.0);
+}
+
+#header {
+    background-color: #31343f;
+    background-image: url("assets/fixed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+#headerTwo {
+    background-color: #31343f;
+    background-image: url("assets/fixed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 1%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-shadow: 2px 2px #000;
+}
+
+#description {
+    background-color: rgba(235, 218, 181, 1.0);
+}
+
+.descriptionOf {
+    color: #ea4728;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Pavanam', sans-serif;
+}
+
+#imageLeft {
+    background-color: #ebd5b5;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#donate {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.btn, .btn-lg {
+    background-color: #ec9374;
+    color: #31343f;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Courgette', cursive;
+}
+
+#aboutUs {
+    background-color: #ea4728;
+}
+
+.about {
+    color: #ebd5b5;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Pavanam', sans-serif;
+}
+
+#imageRight {
+    background-color: #ea4728;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#bottom {
+    background-color: #31343f!important;
+    border-top: 2px solid #fff;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    font-family: 'Courgette', cursive;
+}
+
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+    .descriptionOf {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    }
+
+    .about {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    }
+}
